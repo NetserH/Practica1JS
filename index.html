@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica Javascript</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <h1 id="mensaje"></h1>
+    <button onclick="showPopup()">Abrir Ventana</button>
+    <div class="content-popup" id="popup">
+        <div class="popup">
+            <div class="titulo">
+                Mensaje de Error
+                <span class="close" onclick="closePopup()">&times;</span>
+            </div>
+            <div class="mensaje">
+                <h1> Este es un mensaje </h1>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+
+    <script>
+
+        // Tipos Primitivos
+        // String
+
+        var texto = "Texto";
+        var texto2 = "Otro texto";
+        console.log(texto + texto2);
+
+        //Numero
+        var numero = 5;
+        var numero2 = 20;
+
+
+        console.log(numero + numero2);
+        console.log(numero - numero2);
+        console.log(numero * numero2);
+        console.log(numero / numero2);
+        console.log(numero ** 2);
+        console.log(numero % numero2);
+
+
+        //Booleano
+        var boleano1 = true;
+
+        //Operadores
+
+        if (numero > numero2) {
+            console.log(numero + "es menor que" + numero2);
+        }
+        else {
+            console.log("numero2 es mayor");
+        }
+
+        // Tipos de datos avanzados
+        // Suma
+        console.log(1 + 6);
+    </script>
+</body>
+
+</html>
